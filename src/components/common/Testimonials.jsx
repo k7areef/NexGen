@@ -28,7 +28,7 @@ function Testimonials() {
                         <div className="text-orange-80 -rotate-45 w-12 h-12 rounded-full border border-dark-20 flex items-center justify-center shrink-0 transiiton duration-200 ease-in sm:group-hover:border-dark-35">
                             <FontAwesomeIcon icon={faArrowRight} />
                         </div>
-                        <p className="text-grey-70! transition duration-200 ease-in sm:group-hover:text-grey-80!">ALL Testimonials</p>
+                        <p className="text-grey-70 transition duration-200 ease-in sm:group-hover:text-grey-80">ALL Testimonials</p>
                     </Link>}
                 >
                     <div className="cards-grid grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -36,7 +36,7 @@ function Testimonials() {
                             testimonials.map((testimonial, index) => (<div className="testimonial-card rounded-lg overflow-hidden bg-dark-10 flex flex-col" key={index}>
                                 <div className="text-wrapper p-3 md:p-5">
                                     <h3 className="uppercase font-medium text-lg sm:text-xl md:text-2xl mb-3">{testimonial.title}</h3>
-                                    <p className="text-grey-70!">{testimonial.description}</p>
+                                    <p className="text-grey-70">{testimonial.description}</p>
                                 </div>
                                 <div className="author-wrapper p-3 md:p-5 flex items-center gap-4 bg-dark-12 mt-auto">
                                     <div className="image-wrapper w-12 h-12 rounded-full shrink-0">
@@ -48,7 +48,7 @@ function Testimonials() {
                                     </div>
                                     <div className="author-text-info w-full">
                                         <h4 className="font-medium text-lg mb-1">{testimonial.name}</h4>
-                                        <p className="text-grey-50!">{testimonial.position}</p>
+                                        <p className="text-grey-50">{testimonial.position}</p>
                                     </div>
                                     <Link
                                         to={'/'}
