@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  width: 100%;
+  max-width: 80rem;
+}
+
+@theme {
+  /* Orange Shades */
+  --color-orange-60: #c87c60;
+  --color-orange-65: #ce8d75;
+  --color-orange-70: #d59e89;
+  --color-orange-80: #e3beb0;
+  --color-orange-90: #f1dfd8;
+  --color-orange-95: #f8efec;
+  --color-orange-97: #faf5f3;
+  --color-orange-99: #fefcfb;
+  /* Dark Shades */
+  --color-dark-06: #0f0f0f;
+  --color-dark-10: #191919;
+  --color-dark-12: #1f1f1f;
+  --color-dark-15: #262626;
+  --color-dark-20: #333333;
+  --color-dark-25: #404040;
+  --color-dark-30: #4c4c4c;
+  --color-dark-35: #595959;
+  /* Grey Shades */
+  --color-grey-40: #676665;
+  --color-grey-50: #81807e;
+  --color-grey-70: #b3b3b2;
+  --color-grey-80: #cccccc;
+  --color-grey-90: #e6e6e6;
+  --color-grey-95: #f2f2f2;
+  --color-grey-97: #f7f7f7;
+  --color-grey-99: #fcfcfc;
+}
+
+/* Global */
+html,
+body {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+p,
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-grey-40);
+}
+
+p {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024) {
+  p {
+    font-size: 18px;
+  }
+}
