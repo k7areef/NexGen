@@ -1,0 +1,26 @@
+[
+  {
+    "href": "https://www.instagram.com",
+    "icon": "instagram",
+    "title": "Instagram",
+    "description": "Share visually appealing snippets of our latest web projects."
+  },
+  {
+    "href": "https://www.twitter.com",
+    "icon": "twitter",
+    "title": "Twitter",
+    "description": "Tweet about interesting coding challenges you've overcome."
+  },
+  {
+    "href": "https://www.dribbble.com",
+    "icon": "dribbble",
+    "title": "Dribbble",
+    "description": "Showcase design elements of our web projects."
+  },
+  {
+    "href": "https://www.behance.com",
+    "icon": "behance",
+    "title": "Behance",
+    "description": "Create detailed presentations for our projects."
+  }
+]

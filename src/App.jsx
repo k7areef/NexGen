@@ -16,7 +16,7 @@ import Footer from "@components/layout/Footer";
 
 function App() {
   return (
-    <div className="App bg-dark-06 text-white min-h-screen">
+    <div className="App font-roboto bg-dark-06 text-white min-h-screen">
       {/* NavigationBar */}
       <NavigationBar />
       {/* Routes */}

@@ -8,6 +8,9 @@
 }
 
 @theme {
+  /* Fonts */
+  --font-roboto: "Roboto", sans-serif;
+  --font-roboto-mono: "Roboto Mono", monospace;
   /* Orange Shades */
   --color-orange-60: #c87c60;
   --color-orange-65: #ce8d75;
@@ -40,7 +43,6 @@
 /* Global */
 html,
 body {
-  font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
