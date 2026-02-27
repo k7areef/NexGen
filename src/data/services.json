@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Web Design",
+    "description": "Our Web Design service is all about creating visually stunning and user-friendly websites that leave a lasting.",
+    "startFrom": "$1,500"
+  },
+  {
+    "id": 2,
+    "title": "Mobile App Development",
+    "description": "With our Mobile App Development service, we harness the power of mobile technology to create cutting-edge applications that engage your customers on-the-go.",
+    "startFrom": "$2,500"
+  },
+  {
+    "id": 3,
+    "title": "Web Development",
+    "description": "Our Web Development service is focused on turning your website into a powerful digital asset. We utilize the latest technologies and industry best practices to build websites.",
+    "startFrom": "$1,800"
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing",
+    "description": "In the digital age, marketing is a critical aspect of your business's success. Our Digital Marketing service employs data-driven strategies to enhance your brand's visibility",
+    "startFrom": "$1,200"
+  }
+]

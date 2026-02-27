@@ -23,7 +23,7 @@ function Button({ variant = "primary", to, href, type, className, children }) {
         dark: "bg-dark-06 text-orange-90 hover:bg-dark-10",
     }
 
-    const classNames = `px-4 py-2 sm:py-3 rounded-md font-semibold transition duration-300 ease-in-out ${variants[variant]}${className ? ` ${className}` : ""}`;
+    const classNames = `px-4 py-2 sm:py-3 rounded-md font-medium transition duration-300 ease-in-out ${variants[variant]}${className ? ` ${className}` : ""}`;
 
     if (href) {
         return (
