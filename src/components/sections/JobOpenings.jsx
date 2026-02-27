@@ -1,8 +1,15 @@
+import SectionLayout from "./common/SectionLayout";
+
 function JobOpenings() {
     return (
         <section className="job-openings-section" id="jobOpenings">
             <div className="container">
-                Job Openings
+                <SectionLayout
+                    title="Join Our Team at NexGen"
+                    headerChildren={<></>}
+                >
+                    Join Our Team at NexGen
+                </SectionLayout>
             </div>
         </section>
     )

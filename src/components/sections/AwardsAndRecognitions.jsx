@@ -1,8 +1,15 @@
+import SectionLayout from "./common/SectionLayout";
+
 function AwardsAndRecognitions() {
     return (
-        <section className="awards-and-recognitions-section" id="awardsAndRecognitions">
+        <section className="awards-and-recognitions-section py-5 md:py-10" id="awardsAndRecognitions">
             <div className="container">
-                Awards And Recognitions
+                <SectionLayout
+                    title="Awards & Recognitions"
+                    headerChildren={<></>}
+                >
+                    Awards & Recognitions
+                </SectionLayout>
             </div>
         </section>
     )
