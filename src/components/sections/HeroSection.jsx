@@ -3,15 +3,17 @@ import { faArrowRight, faCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
+import HeroThmbnail from "@assets/images/hero-thumbnail.png";
 
 function HeroSection() {
     return (
         <section className="hero-section-section" id="heroSection">
             <div className="container space-y-5">
-                <div className="main-content flex items-center gap-5 max-lg:flex-col">
+                <div className="main-content flex gap-5 max-lg:flex-col-reverse">
+                    {/* Content */}
                     <div className="content-wrapper lg:w-[60%] bg-dark-10 rounded-xl">
                         <div className="content-container p-5 md:p-10">
-                            <div className="head-title flex items-center gap-3 mb-5">
+                            <div className="head-title flex sm:items-center gap-3 mb-5 max-sm:flex-col">
                                 <h1 className="uppercase font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">Digital Solutions</h1>
                                 <Link
                                     to={'/'}
@@ -48,10 +50,44 @@ function HeroSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="hero-wrapper lg:w-[40%]">
-                        Hero Wrapper
+                    {/* Hero */}
+                    <div className="hero-wrapper lg:w-[40%] bg-dark-12 rounded-lg overflow-hidden">
+                        <a
+                            href="https://ecommerce-style-loom.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Style.Loom"
+                            className="thumbnail block relative group overflow-hidden"
+                        >
+                            <img
+                                src={HeroThmbnail}
+                                alt="Hero Thumbnail"
+                                className="w-full h-full object-cover"
+                            />
+                            <div className="absolute top-0 right-0 bg-dark-06 w-30 h-30 sm:w-40 sm:h-40 z-1 rounded-full translate-x-9 -translate-y-9 sm:translate-x-12 sm:-translate-y-12 flex items-center justify-center">
+                                <div className="w-3/4 h-3/4 border-2 border-orange-60 rounded-full flex items-center justify-center">
+                                    <div className="bg-orange-60 w-3/4 h-3/4 rounded-full flex items-center justify-center -rotate-45 text-dark-06">
+                                        <FontAwesomeIcon icon={faArrowRight} size="2x" className="transition duration-200 ease-out sm:group-hover:translate-x-2 sm:group-hover:text-white" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div className="info p-3 md:p-5">
+                            <a
+                                href="https://ecommerce-style-loom.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="Style.Loom"
+                                aria-label="Style.Loom"
+                                className="block mb-1 w-fit sm:hover:underline sm:hover:text-orange-60 transition duration-200 ease-in"
+                            >
+                                <h3 className="font-semibold text-lg uppercase">Style.Loom</h3>
+                            </a>
+                            <p className="text-grey-70">Web Development.</p>
+                        </div>
                     </div>
                 </div>
+                {/* Statistics */}
                 <div className="statistics p-3 md:p-5 border border-dark-12 rounded-xl flex gap-3 md:gap-5 flex-wrap">
                     {
                         statistics.map((statistic, index) => (<div className="flex flex-col justify-center gap-3 text-center uppercase p-5 rounded-xl bg-dark-10 flex-1 h-full text-nowrap w-1/2 sm:w-auto last-of-type:w-full last-of-type:sm:w-auto" key={index}>
