@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Skillbridge",
+    "description": "Skillbridge is a modern, responsive e-learning platform built with the latest web technologies. It provides a seamless user experience for exploring courses, pricing plans, and academic tracks.",
+    "time": "1 week",
+    "demo": "https://skillbridge-rose-eight.vercel.app/",
+    "category": "Web Development",
+    "techs": ["Html", "React", "Tailwind", "Github"]
+  },
+  {
+    "id": 2,
+    "title": "Nutritionist",
+    "description": "Nutritionist is a modern, full-featured web platform dedicated to personalized nutrition coaching. Built with the latest React 19 and Tailwind CSS 4, it provides a seamless user experience with a focus on performance, clean architecture, and responsive design.",
+    "time": "2 weeks",
+    "category": "Web Development",
+    "demo": "https://nutritionist-one.vercel.app/",
+    "techs": ["Html", "React", "Tailwind", "Github"]
+  }
+]
