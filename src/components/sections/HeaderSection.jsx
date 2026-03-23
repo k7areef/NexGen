@@ -11,13 +11,13 @@
 function HeaderSection({ commonChildren, otherChildren }) {
     return (
         <section className="header-section-section" id="headerSection">
-            <div className="container grid grid-cols-1 lg:grid-cols-3 gap-5">
+            <div className="container flex max-lg:flex-wrap max-lg:flex-col-reverse gap-5">
                 {/* Common Content */}
-                <div className="common-content col-span-1 lg:col-span-2">
+                <div className="common-content w-full lg:w-[60%]">
                     {commonChildren}
                 </div>
                 {/* Other Content */}
-                <div className="other-content col-span-1">
+                <div className="other-content w-full lg:w-[40%]">
                     {otherChildren}
                 </div>
             </div>
