@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Web Design Trends Shaping 2026",
+    "category": "Design",
+    "readTime": "6 Mins",
+    "author": "Laura Turner",
+    "description": "Stay ahead of the design curve with insights into the latest web design trends. From immersive user experiences to bold color choices, explore the design elements that will dominate the digital landscape in 2023 and beyond.",
+    "publishedAt": "2026-01-15"
+  },
+  {
+    "id": 2,
+    "title": "Optimizing Mobile User Experience for Higher Conversions",
+    "category": "Design",
+    "readTime": "6 Mins",
+    "author": "Laura Turner",
+    "description": "Mobile devices dominate digital interactions, making mobile user experience crucial for conversion rates. Explore mobile design best practices...",
+    "publishedAt": "2026-02-20"
+  },
+  {
+    "id": 3,
+    "title": "Mastering the Art of Minimalistic Design",
+    "category": "Design",
+    "readTime": "6 Mins",
+    "author": "Laura Turner",
+    "description": "Simplicity and elegance take center stage in minimalistic design. Learn the principles of minimalism, how to effectively communicate with fewer elements...",
+    "publishedAt": "2026-03-10"
+  },
+  {
+    "id": 4,
+    "title": "The Psychology of Visual Design in Branding",
+    "category": "Design",
+    "readTime": "6 Mins",
+    "author": "Laura Turner",
+    "description": "Uncover the impact of visual elements in branding and how they influence customer perceptions and emotions. Explore color psychology, typography choices...",
+    "publishedAt": "2026-04-05"
+  }
+]
