@@ -1,0 +1,38 @@
+[
+  {
+    "name": "JOHN SMITH",
+    "role": "Co-Founder & CEO",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "SARAH ADAMS",
+    "role": "Head of Design",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "EMILY JOHNSON",
+    "role": "Lead Web Developer",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "WILLIAM LEE",
+    "role": "Lead Backend Developer",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  }
+]
